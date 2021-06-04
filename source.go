@@ -6,28 +6,36 @@ type SourceIotTask struct {
 	Tasknode string `json:"TaskNode"`
 }
 
-type SourceGnss struct {
-	BDS    bool `json:"BDS"`
-	GPS    bool `json:"GPS"`
-	MCycle int  `json:"MCycle"`
-	SCycle int  `json:"SCycle"`
+//type SourceGnss struct {
+//	BDS    bool `json:"BDS"`
+//	GPS    bool `json:"GPS"`
+//	MCycle int  `json:"MCycle"`
+//	SCycle int  `json:"SCycle"`
+//}
+//
+//type SourceCellular struct {
+//	Enable bool `json:"Enable"`
+//	Cycle  int  `json:"Cycle"`
+//}
+
+type SourceSysObject struct {
+	Layer    string
+	Node     string
+	TaskNode string
+	Key      string
 }
 
-type SourceCellular struct {
-	Enable bool `json:"Enable"`
-	Cycle  int  `json:"Cycle"`
-}
-
-type SourceHardware struct {
-	Enable bool `json:"Enable"`
-	Cycle  int  `json:"Cycle"`
+type SourceSys struct {
+	Enable  bool              `json:"Enable"`
+	Cycle   int               `json:"Cycle"`
+	Objects []SourceSysObject `json:"Objects"`
 }
 
 type SouthSource struct {
-	Iot      []SourceIotTask `json:"Iot,omitempty"`
-	Gnss     SourceGnss      `json:"Gnss,omitempty"`
-	Cellular SourceCellular  `json:"Cellular,omitempty"`
-	Hardware SourceHardware  `json:"Hardware,omitempty"`
+	Iot []SourceIotTask `json:"Iot,omitempty"`
+	//Gnss     SourceGnss      `json:"Gnss,omitempty"`
+	//Cellular SourceCellular  `json:"Cellular,omitempty"`
+	Sys SourceSys `json:"Sys,omitempty"`
 }
 
 type CustomKey struct {
