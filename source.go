@@ -31,11 +31,19 @@ type SourceSys struct {
 	Objects []SourceSysObject `json:"Objects"`
 }
 
+type SourceEvent struct {
+	GnssEnable         bool
+	GnssCycleM         int
+	GnssCycleS         int
+	CellularEnable     bool
+	CellularCycle      int
+	SubDevStatusEnable bool
+}
+
 type SouthSource struct {
-	Iot []SourceIotTask `json:"Iot,omitempty"`
-	//Gnss     SourceGnss      `json:"Gnss,omitempty"`
-	//Cellular SourceCellular  `json:"Cellular,omitempty"`
-	Sys SourceSys `json:"Sys,omitempty"`
+	Iot   []SourceIotTask `json:"Iot,omitempty"`
+	Sys   SourceSys       `json:"Sys,omitempty"`
+	Event SourceEvent     `json:"Event,omitempty"`
 }
 
 type CustomKey struct {
