@@ -9,7 +9,7 @@ const (
 	UINT16 = "UInt16"
 	INT32  = "Int32"
 	UINT32 = "UInt32"
-	FLOAT  = "Real"
+	REAL   = "Real"
 	LREAL  = "LReal"
 	STRING = "String"
 )
