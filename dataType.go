@@ -1,27 +1,15 @@
 // dataType
 package HiNetEdgeDAS
 
-/*
 const (
-	BOOL   = "BOOL"
-	INT8   = "INT8"
-	UINT8  = "UINT8"
-	INT16  = "INT16"
-	UINT16 = "UINT16"
-	INT32  = "INT32"
-	UINT32 = "UINT32"
-	FLOAT  = "FLOAT"
-	DOUBLE = "DOUBLE"
-	STRING = "STRING"
-	HEX    = "HEX"
-	OBJECT = "OBJECT"
-
-	S7TCP_Counter = "S7TCP_Counter"
-	S7TCP_Timers  = "S7TCP_Timers"
-	S7TCP_Date    = "S7TCP_Date"
-	S7TCP_Time    = "S7TCP_Time"
-
-	FP_STRING16 = "FP_STRING16"
-	FP_STRING32 = "FP_STRING32"
+	BOOL   = "Bool"
+	INT8   = "Int8"
+	UINT8  = "UInt8"
+	INT16  = "Int16"
+	UINT16 = "UInt16"
+	INT32  = "Int32"
+	UINT32 = "UInt32"
+	FLOAT  = "Real"
+	LREAL  = "LReal"
+	STRING = "String"
 )
-*/
