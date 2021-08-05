@@ -32,12 +32,11 @@ type SourceSys struct {
 }
 
 type SourceEvent struct {
-	GnssEnable         bool
-	GnssCycleM         int
-	GnssCycleS         int
-	CellularEnable     bool
-	CellularCycle      int
-	SubDevStatusEnable bool
+	GnssEnable     bool
+	GnssCycleM     int
+	GnssCycleS     int
+	CellularEnable bool
+	CellularCycle  int
 }
 
 type SouthSource struct {

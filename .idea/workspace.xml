@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8306bbff-34a1-40cb-9022-50929f1047ff" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/dataType.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source.go" beforeDir="false" afterPath="$PROJECT_DIR$/source.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="20210604001" />
     <MESSAGE value="20210611001" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210611001" />
+    <MESSAGE value="20210723001" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210723001" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
