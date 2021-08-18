@@ -1,5 +1,7 @@
 package HiNetEdgeDAS
 
+//懵逼啦
+
 type SouthSource struct {
 	Iot   SourceIot   `json:"Iot,omitempty"`
 	Sys   SourceSys   `json:"Sys,omitempty"`
