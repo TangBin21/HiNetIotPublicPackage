@@ -39,4 +39,5 @@ type CustomKey struct {
 	TaskNode string `json:"TaskNode"`
 	Key      string `json:"Key"`
 	NewKey   string `json:"NewKey"`
+	DatType  string `json:"DatType"`
 }
