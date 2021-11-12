@@ -31,6 +31,7 @@ type ArithOutputVal struct {
 	Description string `json:"Description"`
 	Unit        string `json:"Unit"`
 	DataType    string `json:"DataType"`
+	WrEnable    int    `json:"WrEnable"`
 }
 
 type ArithmeticParamStu struct {
