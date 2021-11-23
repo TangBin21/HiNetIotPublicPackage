@@ -9,25 +9,33 @@ type ArithmeticInterfacer interface {
 
 type ArithInputVal struct {
 	Layer    string `json:"Layer"`
-	Node     string `json:"Node"`
+	DevNode  string `json:"DevNode"`
+	DevName  string `json:"DevName"`
 	TaskNode string `json:"TaskNode"`
-	Key      string `json:"Key"`
+	TaskName string `json:"TaskName"`
+	KeyNode  string `json:"KeyNode"`
+	KeyName  string `json:"KeyName"`
 }
 
 type ArithFeedbackVal struct {
 	Layer    string `json:"Layer"`
-	Node     string `json:"Node"`
+	DevNode  string `json:"DevNode"`
+	DevName  string `json:"DevName"`
 	TaskNode string `json:"TaskNode"`
-	Key      string `json:"Key"`
+	TaskName string `json:"TaskName"`
+	KeyNode  string `json:"KeyNode"`
+	KeyName  string `json:"KeyName"`
 	DataType string `json:"DataType"`
 }
 
 type ArithOutputVal struct {
 	Layer       string `json:"Layer"`
-	Node        string `json:"Node"`
+	DevNode     string `json:"DevNode"`
+	DevName     string `json:"DevName"`
 	TaskNode    string `json:"TaskNode"`
-	Key         string `json:"Key"`
-	Name        string `json:"Name"`
+	TaskName    string `json:"TaskName"`
+	KeyNode     string `json:"KeyNode"`
+	KeyName     string `json:"KeyName"`
 	Description string `json:"Description"`
 	Unit        string `json:"Unit"`
 	DataType    string `json:"DataType"`
