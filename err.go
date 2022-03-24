@@ -16,6 +16,7 @@ const (
 	IllegalReturnData  = 0x00050000 //无效的响应
 	UnknownProtocolErr = 0x00060000 //未知协议错误
 	UnMatchDataTypeErr = 0x00070000 //数据类型不匹配
+	DeviceDisconnect   = 0x00080000 //设备离线（驱动层不反馈此错误）
 )
 
 type ControlResContent struct {
