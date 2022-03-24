@@ -20,9 +20,11 @@ type SourceSys struct {
 }
 
 type MinUnit struct {
-	Layer    string `json:"Layer"`
-	Node     string `json:"Node"`
-	TaskNode string `json:"TaskNode"`
+	Layer     string `json:"Layer"`
+	Node      string `json:"Node"`
+	TaskNode  string `json:"TaskNode"`
+	Cycle     int    `json:"Cycle"`
+	FInterval int    `json:"FInterval"`
 }
 
 type SourceEvent struct {
