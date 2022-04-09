@@ -45,6 +45,7 @@ type ArithOutputVal struct {
 type ArithmeticParamStu struct {
 	TaskNode   string        `json:"TaskNode"`
 	Arithmetic string        `json:"Arithmetic"`
+	DataSource []string      `json:"DataSource"`
 	Params     interface{}   `json:"Params,omitempty"`
 	Input      []interface{} `json:"Input,omitempty"`
 	Feedback   []interface{} `json:"Feedback,omitempty"`
