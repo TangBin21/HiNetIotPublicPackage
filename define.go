@@ -89,10 +89,12 @@ type ManageFuncStu struct {
 }
 
 type EventNoticeStu struct {
-	Layer   string      `json:"Layer"`
-	Node    string      `json:"Node"`
-	Time    int64       `json:"Ts"`
-	Message interface{} `json:"Message,omitempty"`
+	Layer    string      `json:"Layer"`
+	Node     string      `json:"Node"`
+	TaskNode string      `json:"TaskNode"`
+	Key      string      `json:"K"`
+	Time     int64       `json:"Ts"`
+	Message  interface{} `json:"Message,omitempty"`
 }
 
 type CellularStatusStu struct {
